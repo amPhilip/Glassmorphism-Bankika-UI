@@ -14,9 +14,11 @@
     min-height: 100vh;
 }
 .card{
-    background: rgb(255, 253, 253, 0.2);
+    background: rgb(255, 253, 253, 0.4);
     height: 320px;
     width:640px;
+    color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
 }
 .first-row{
     display:flex;
