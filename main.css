@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&family=Red+Rose:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Red rose;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background:url("image 1.png");
+    min-height: 100vh;
+}
+.card{
+    background: rgb(255, 253, 253, 0.2);
+    height: 320px;
+    width:640px;
+}
+.first-row{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.second-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-around
+}
+.third-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 30px 0;
+}
+.Logo{
+    margin-left: 8%;
+}
+.l2{
+    font-family: Rationale;
+    margin-right: 14%;
+}
+img{
+    border-radius: 20px;
+}
+.last-row{
+    margin-left: 8%;
+}
+.name{
+    margin-left:-8%;
+}
+.vnumber{
+    font-size:30px;
+    word-spacing: 18px;
+    margin-left:-18%;
+}
